@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1362511415 source:d:\projet_ephec\main.c
+	"main.h"
+
+1362511415 source:d:\projet_ephec\manip_classe.c
+	"constante.h"
+	"manip_classe.h"
+
+1362421428 d:\projet_ephec\constante.h
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+
+1362511462 d:\projet_ephec\manip_classe.h
+	"main.h"
+
+1362422053 d:\projet_ephec\struct.h
+	"constante.h"
+
+1362414889 d:\projet_ephec\main.h
+	"constante.h"
+	"struct.h"
+
