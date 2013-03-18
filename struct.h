@@ -2,29 +2,12 @@
 /*
   STRUCTURE ETUDIANTS
 */
-/*
-typedef struct {
-  int id;
-  struct {
-    int annee;
-    char section;
-  }T_ClasseEtu;
-  char nom[M_STRING];
-  char prenom[M_STRING];
-  struct {
-    char rue[L_STRING];      // appartement -> chiffre et lettres
-    int CP;
-    char ville[M_STRING];
-  } Adresse;
-  int cote[5];
-} T_Etu;
-*/
 typedef struct {
     short annee;
     char section;
   }T_ClasseEtu;
 
-struct {
+typedef struct {
     char rue[L_STRING];      // appartement -> chiffre et lettres
     int CP;
     char ville[M_STRING];

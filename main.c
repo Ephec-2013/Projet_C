@@ -1,5 +1,5 @@
-#include "main.h"
-#include "manip_classe.h"
+#include "classe.h"
+
 
 /*
   PROJET C

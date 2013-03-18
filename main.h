@@ -1,2 +1,2 @@
-#include "constante.h"
-#include "struct.h"
+
+#include "manip_classe.h"
