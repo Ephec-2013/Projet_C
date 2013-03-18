@@ -1,6 +1,6 @@
 #include "constante.h"
 #include "manip_classe.h"
-
+#include "main.h"
 
 void supprimer_Etu(T_Etu classe[], int id)
 //TODO (Xavier#3#):mettre une option de sortie sans modifier
@@ -42,11 +42,12 @@ int encoder_Etu(T_Etu classe[], int nbEtu)
     nbEtu++;
     printf("Encoder ETU\n");
     printf("id: ");
-    scanf("%d",&classe[0].id);
+    scanf("%d",classe[0].id);
     fflush(stdin);
     printf("Nom: "); gets(classe[0].nom);
     printf("Prenom: "); gets(classe[0].prenom);
     printf("Adresse:\nRue: "); gets(classe[0].Adresse.rue);
+    printf("Ville: "); gets(classe[0].Adresse.ville);
     printf("Ville: "); gets(classe[0].Adresse.ville);
     printf("CP: "); scanf("%d",classe[0].Adresse.CP);
     fflush(stdin);

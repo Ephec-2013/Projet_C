@@ -1,4 +1,6 @@
 #include "main.h"
+#include "manip_classe.h"
+
 /*
   PROJET C
   1.Gerer une classe de max 25 étudiants
@@ -18,17 +20,21 @@
 
   2.passage de parametre pour les fonctions.
 
+  3.calculer et stocker le % d'un etu
+    trier les etu en fct du %
+
 */
 
 int main() {
   char choix;
   int nbEtu=0;
   T_Etu EtuEphec[100];
-  do{
+  //do{
     nbEtu = encoder_Etu(EtuEphec,nbEtu);
     printf("\n\nq pour quitter");
-    getch(choix);
-  } while(!(choix = 'q'));
+//    getch(choix);
+  //} while(!(choix = 'q'));
+
   return 0;
 }
 
