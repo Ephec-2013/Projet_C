@@ -31,15 +31,11 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="classe.h" />
 		<Unit filename="constante.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="main.h" />
-		<Unit filename="manip_classe.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="manip_classe.h" />
 		<Unit filename="struct.h" />
 		<Extensions>
 			<code_completion />

@@ -16,18 +16,23 @@
                 afficher la classe
                 encoder cotes.
 
-  systeme d'id a 2 partie? AnneeSectionID (1TL01)
+  ID unique en integer!
 
   2.passage de parametre pour les fonctions.
 
   3.calculer et stocker le % d'un etu
     trier les etu en fct du %
 
+  4.Faire un programme setup qui initialise les fichier pour une nouvelle année.
+  enregistrer les struct sous fichier binaire
+  1TI.txt : config du fichier binaire
+
 */
 
 int main() {
-  char choix;
+ // char choix;
   int nbEtu=0;
+  FILE* fopen(config.cfg, );
   T_Etu EtuEphec[100];
   //do{
     nbEtu = encoder_Etu(EtuEphec,nbEtu);

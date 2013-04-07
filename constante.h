@@ -10,3 +10,12 @@
 #define MAXETUCLASSE 25
 #define NB_SECTION 3
 #define NB_ANNEES 3
+
+// MACRO
+/*
+#define AFFICHAGE() printf("################");/
+                    printf("##            ##");/
+                    printf("##    EPHEC   ##");/
+                    printf("##            ##");/
+                    printf("################");/
+*/

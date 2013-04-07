@@ -21,18 +21,18 @@
 	"constante.h"
 	"struct.h"
 
-1363604449 source:d:\projet_c\main.c
+1364150283 source:d:\projet_c\main.c
 	"classe.h"
 
 1363603814 d:\projet_c\main.h
 	"manip_classe.h"
 
-1362421428 d:\projet_c\constante.h
+1364135454 d:\projet_c\constante.h
 	<stdlib.h>
 	<stdio.h>
 	<string.h>
 
-1363603725 d:\projet_c\struct.h
+1364139398 d:\projet_c\struct.h
 	"constante.h"
 
 1362994834 source:d:\projet_c\manip_classe.c
@@ -42,6 +42,6 @@
 1363603814 d:\projet_c\manip_classe.h
 	"struct.h"
 
-1363604511 d:\projet_c\classe.h
+1364204505 d:\projet_c\classe.h
 	"struct.h"
 

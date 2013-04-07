@@ -51,14 +51,14 @@ int encoder_Etu(T_Etu classe[], int nbEtu)
     nbEtu++;
     printf("Encoder ETU\n");
     printf("id: ");
-    scanf("%d",classe[0].id);
+    scanf("%d",&classe[0].id);   // D:\Projet_C\classe.h|54|warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat]|
     fflush(stdin);
     printf("Nom: "); gets(classe[0].nom);
     printf("Prenom: "); gets(classe[0].prenom);
     printf("Adresse:\nRue: "); gets(classe[0].Adresse.rue);
     printf("Ville: "); gets(classe[0].Adresse.ville);
     printf("Ville: "); gets(classe[0].Adresse.ville);
-    printf("CP: "); scanf("%d",classe[0].Adresse.CP);
+    printf("CP: "); scanf("%d",classe[0].Adresse.CP);   // D:\Projet_C\classe.h|61|warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat]|
     fflush(stdin);
 
     printf("\n\nID: %d\n",classe[0].id);
@@ -69,10 +69,11 @@ int encoder_Etu(T_Etu classe[], int nbEtu)
     printf("%d",classe[0].Adresse.CP);
     printf("\nCes informations sont-elles correctes? [O/n] 'E' pour annuler\n");
     scanf("%c",&check);
-    }while(check = ('O'|'o'|'e'|'E'));
-    if(check = ('O'|'o')) {
+    }while(check = ('O'|'o'|'e'|'E'));    // D:\Projet_C\classe.h|72|warning: suggest parentheses around assignment used as truth value [-Wparentheses]|
+    if(check = ('O'|'o')) {               // idem
       classe[nbEtu] = classe[0];
       printf("\nChangement enregistre!\n");
     }
     return nbEtu;
 };
+
